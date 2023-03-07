@@ -1,9 +1,10 @@
-import {Header} from './components'
+import {Header,Menu} from './components'
 
 function App() {
   return (
  <>
  <Header/>
+ <Menu/>
  </>
   );
 }

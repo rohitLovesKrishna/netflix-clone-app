@@ -8,3 +8,6 @@
     cursor: pointer;
     user-select: none;
 }
+.ctmBtn:hover {
+    background-color: #f92933;
+}

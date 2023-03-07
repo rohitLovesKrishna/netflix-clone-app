@@ -1,0 +1,56 @@
+.menuContainerSameForAll{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:35rem;
+}
+.headTitle{
+color: white;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   justify-content: space-between;
+    flex: 1.5;
+        height: 200px;
+        padding: 0px 30px 30px 30px;
+}
+.headTitleBox{
+width: 500px;
+line-height: 40px;
+}
+.headTitle h1 {
+    font-size: 50px;
+}
+.headTitle h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.image{
+    height: 400px;
+    flex: 2;
+    background-position: center;
+    background-size: 560px;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.videoBox  {
+    background-color: transparent;
+    height: 220px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-30px;
+}
+.videoBox video{
+    width: 100%;
+    height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
