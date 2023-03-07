@@ -6,7 +6,7 @@ export default function Menu2() {
         <>
             <div className={styles.menuContainerSameForAll}>
                 <div className={styles.image} style={{ backgroundImage: `url(${mobileImage})` }}>
-                    <h1></h1>
+                    <h1>hi</h1>
                 </div>
                 <div className={styles.headTitle}>
                     <div className={styles.headTitleBox}>
