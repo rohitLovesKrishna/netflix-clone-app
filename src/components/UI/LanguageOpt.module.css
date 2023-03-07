@@ -1,0 +1,42 @@
+.langBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.dropMenuSelection {
+    background-color: transparent;
+    color: white;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+    user-select: none;
+}
+.languagesBox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+        width: 110px;
+    position: absolute;
+    bottom: -45px;
+    border-radius: 10px;
+    background-color: rgb(183, 171, 171);
+}
+.languagesBox span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.languagesBox :nth-child(1) {
+    background-color: rgb(110, 103, 103);
+}
+.languagesBox :nth-child(2):hover {
+    background-color: rgb(110, 103, 103);
+}
+.languagesBox:hover :nth-child(1){
+    background-color: rgb(183, 171, 171);
+}

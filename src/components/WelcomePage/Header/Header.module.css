@@ -1,0 +1,53 @@
+.headerContainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/websitebgimg.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+box-shadow: inset -12px 15px 263px 187px rgba(0, 0, 0, 0.75);
+}
+.headerBox{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.headerBoxRightSideBtns{
+    display: flex;
+    width: 254px;
+    justify-content: space-between;
+}
+.svgLogo{
+    user-select: none;
+    width: 130px;
+    height: 30px;
+}
+.middleContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 390px;
+    margin: auto;
+    width: 620px;
+    color:white;
+    margin-bottom: 100px;
+}
+.middleContent h1 {
+    margin-top: -20px;
+font-size: 60px;
+font-weight: 700;
+}
+.middleContent h2 {
+    margin-top: -20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.middleContent p {
+    font-size: 15px;
+    font-weight: 400;
+}
