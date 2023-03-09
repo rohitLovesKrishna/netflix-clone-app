@@ -1,10 +1,11 @@
-import {Header,Menu} from './components'
+import {Header,Menu,Footer} from './components'
 
 function App() {
   return (
  <>
  <Header/>
  <Menu/>
+ <Footer/>
  </>
   );
 }

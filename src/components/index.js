@@ -1,4 +1,5 @@
 export {default as Header } from './WelcomePage/Header/Header'
+export { default as Footer } from './WelcomePage/Footer/Footer'
 export {default as Button} from './UI/Button'
 export { default as LanguageOpt } from './UI/LanguageOpt'
 export { default as NetflixLogo } from './assets/Netflix.png'

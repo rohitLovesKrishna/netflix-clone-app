@@ -53,12 +53,15 @@ export default function FAQ() {
               <p>Ready to watch? Enter your email to create or restart your membership.</p>
 </div>
 <div className={styles.FAQInput}>
-    <Input/>
+              <Input />
 </div>
 <div className={styles.FAQBtn}>
               <Button padding="10px 10px" m="10px 0px">Get Started </Button>
 </div>
-<Hr/>
+          <Hr border= '5px solid green' 
+          opacity = '0.85'
+m= '0px' width="100%"/>
       </div>
+
   )
 }

@@ -1,0 +1,37 @@
+.footerContainer{
+    background-color: black;
+height: 25rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+}
+.linksContainer{
+display: flex;
+width: 80%;
+align-items: center;
+justify-content:space-evenly;
+}
+.linkColumns{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.linkColumns a {
+color: white;
+text-decoration: none;
+font-size: 15px;
+opacity: 0.43;
+margin-bottom: 20px;
+}
+.linkColumns a:hover {
+background-color: rgb(48, 42, 42);
+text-decoration:underline;
+}
+.langAndLogoArea{
+display: flex;
+width:230px;
+align-items: center;
+justify-content: space-evenly;
+}
